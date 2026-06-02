@@ -54,7 +54,7 @@ fun ContactDialog(
                 OutlinedTextField(
                     value = email,
                     onValueChange = {email = it},
-                    label = {Text("Email")},
+                    label = {Text("Email (optional)")},
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(bottom = 8.dp)
